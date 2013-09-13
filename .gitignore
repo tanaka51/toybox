@@ -1,0 +1,17 @@
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+nodes/*
+!nodes/sample.json
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+/cookbooks/
